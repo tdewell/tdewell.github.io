@@ -1,0 +1,9 @@
+{% assign a = include.article %}
+<article>
+    <header>
+        <h1>{{a.project_name}}</h1>
+    </header>
+    {% for description in a.project_descriptions %}
+      <p>{{description.text}}</p>
+    {% endfor %}
+</article>

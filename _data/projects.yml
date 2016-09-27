@@ -1,0 +1,85 @@
+sections:
+  - name: Ruby on Rails
+    article_template: project_article.html
+    articles:
+      - project_name: One Click to Caption Web Application
+        project_descriptions:
+          - text: |
+              One Click to Caption was a web service that synchronized transcript files to videos
+              using the Cogi API.  The web service would also create a transcript file using the
+              Cogi API for those people that did not have a transcript file.
+              The software behind this service uploaded a video to Amazon S3 storage and then directed the Cogi API
+              to create a transcript of the video and then synchronized the transcript to the video.
+              A simple backend CMS was also implemented to allow Cogi's marketing team to update the
+              copy for the app without having to revise the app.
+          - text: "Technology: Ruby on Rails, PostgreSQL, Javascript, jQuery, jQuery Fancybox, Cogi API, Amazon S3"
+      - project_name: P&G ERA Detergent Stainkicker Game Facebook App
+        project_descriptions:
+          - text: |
+              The ERA Detergent Stainkicker Game was a flash based game that ran on Facebook.
+              Facebook users that played the game tried to kick a sock into a washing machine
+              and were awarded points if they are successful.  The game also awarded people prizes
+              for playing the game.  This app combined many elements into one package:
+              Flash game, internal API for Flash game to interface with, and an ePrize API integration
+              to award and fulfill prizes for people playing the game.
+          - text: "Technology:  Ruby on Rails, PostgreSQL, Javascript, jQuery, Flash integration, ePrize API, Facebook Graph API"
+      - project_name: Acura Win a Car Contest Facebook Tab
+        project_descriptions:
+          - text: |
+              The Acura Win a Car Contest was a Facebook application that was installed on the
+              Acura Facebook Page.  Acura's Facebook Fans were asked to write a story about how they
+              would use Acura's Pro TSX Sport Wagon for their favorite sporting activity.  After the
+              stories were submitted, people voted on the best story.  When the contest ended,
+              the person that received the most votes won a car.
+          - text: "Technology:  Ruby on Rails, PostgreSQL, Javascript, jQuery, Facebook Graph API"
+      - project_name: Olay Product News Facebook Tab
+        project_descriptions:
+          - text: |
+              The Olay Product News tab was a Facebook application that featured new Olay products on their
+              Facebook Page.  This application gave Olay the ability to upload product images and videos and
+              select which products were displayed on the page.
+          - text: "Technology:  Ruby on Rails, PostgreSQL, Javascript, jQuery, Facebook Graph API, Amazon S3, Paperclip"
+      - project_name: USAA Insurance Armed Forces Football Trivia Game Facebook Tab
+        project_descriptions:
+          - text: |
+              The USAA Insurance Armed Forces Football Trivia Game was a Facebook application that was
+              installed on the USAA Insurance Facebook tab.  USAA provided around 100 trivia questions with
+              multiple answers about the armed forces football teams (Army, Navy, Air Force, and
+              Coast Guard).  USAA Facebook fans participated in the game by choosing the answer to the
+              question of the day.  If the user clicked the correct answer they received 5 points that
+              they could award to their favorite armed force (Army, Navy, Air Force, and Coast Guard).
+          - text: "Ruby on Rails, PostgreSQL, Javascript, jQuery, Facebook Graph API"
+      - project_name: Intel Deal Facebook Tab
+        project_descriptions:
+          - text: |
+              The Intel Deal tab was a Facebook application that was installed on Intel's Facebook Page.
+              The application gave users the ability to find deals for computers that used Intel processors.
+              Users could filter these deals by type of computer, manufacturer and type of processor used.
+              A backend dashboard was also implemented that gave Intel the ability to manage the deals for this app.
+          - text: "Technology:  Ruby on Rails, PostgreSQL, Javascript, jQuery, Facebook Graph API"
+      - project_name: Microsoft Windows Welcome Facebook Tab
+        project_descriptions:
+          - text: |
+              The Microsoft Windows Welcome Tab was a Facebook application that was installed on the
+              Microsoft Facebook Page.  The application gave Microsoft the ability to target four types of users:
+                Developers, Everyone, Businesses, Students.
+              The application had a module that simulated a Facebook wall and presented
+              "wall posts" from Microsoft country managers that targeted Facebook users from specific countries.
+          - text: "Technology:  Ruby on Rails, Javascript, jQuery, Facebook Graph API, Facebook Open Graph"
+      - project_name: Shop With TurboTax Facebook Tab
+        project_descriptions:
+        - text: |
+            Shop with TurboTax was a Facebook application that was installed on the TurboTax Facebook Page.
+            The application pulled TurboTax reviews from the Bazaar Voice API and presented them in the TurboTax
+            Facebook app.
+        - text: "Technology:  Ruby on Rails, Bazaar Voice API, Facebook Graph API"
+  - name: Websites
+    article_template: project_article.html
+    article_template: project_article.html
+    articles:
+      - project_name: Personal Website
+        project_descriptions:
+          - text: |
+              Tdewell.com is the personal website of Todd Dewell.  The Skills and Project pages are based on YML files
+              located in the _data directory.
+          - text: "Technology: Jekyll, Liquid"

@@ -1,0 +1,13 @@
+---
+layout: layout
+permalink: /projects
+---
+
+{% for section in site.data.projects.sections %}
+<section class="thirteen columns">
+    <h1>{{section.name}}</h1>
+    {% for article in section.articles %}
+      {% include {{section.article_template}} article=article %}
+    {% endfor %}
+</section>
+{% endfor %}

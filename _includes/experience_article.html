@@ -1,0 +1,9 @@
+{% assign a = include.article %}
+<article>
+    <header>
+        <h1>{{a.title}}</h1>
+        <span>{{a.company}} - <address>{{a.location}}</address><time>{{a.started}} to {{a.ended}}</time>
+        </span>
+    </header>
+    <p>{{a.description}}</p>
+</article>

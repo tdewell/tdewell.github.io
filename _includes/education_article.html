@@ -1,0 +1,13 @@
+{% assign a = include.article %}
+<article>
+    <header>
+        <h1>{{a.degree}}</h1>
+        <span><em>
+          {{a.school}}
+          {% if a.graduation_year %}
+          &nbsp;-&nbsp;{{a.graduation_year}}
+          {% endif %}
+        </em></span>
+    </header>
+    <p>{{a.additional}}</p>
+</article>

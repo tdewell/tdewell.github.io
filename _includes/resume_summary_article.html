@@ -1,0 +1,9 @@
+{% assign a = include.article %}
+<article>
+  <p>{{a.summary}}</p>
+  {% if a.link_linked_in_url %}
+  <br/>
+  <p>{{a.visit_linked_in_msg_start}} <a href="{{link_linked_in_url}}">{{a.link_linked_in_txt}}</a>
+     {{a.visit_linked_in_msg_end}}.</p>
+  {% endif %}
+</article>

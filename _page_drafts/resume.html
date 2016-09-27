@@ -1,0 +1,15 @@
+---
+layout: layout
+permalink: /resume
+title: Resume
+description:
+---
+
+{% for section in site.data.resume.sections %}
+<section class="thirteen columns">
+    <h1>{{section.name}}</h1>
+    {% for article in section.articles %}
+      {% include {{section.article_template}} article=article %}
+    {% endfor %}
+</section>
+{% endfor %}

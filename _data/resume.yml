@@ -1,0 +1,31 @@
+sections:
+  - name: Summary
+    article_template: resume_summary_article.html
+    articles:
+      - visit_linked_in_msg_start: For additional information about my carreer visit my
+        link_linked_in_url:  https://www.linkedin.com/in/tdewell
+        link_linked_in_txt: LinkedIn profile
+        visit_linked_in_msg_end:
+        summary: With over 15 years .....
+  - name: Experience
+    article_template: experience_article.html
+    articles:
+      - title: Director of Systems Engineering
+        company: Calient Technologies
+        location: Santa Barbara, CA
+        started: 2013
+        ended: 2016
+        description:  Pre-sales support, Demo & Trial support,
+      - title: Software Developer / Managing Director
+        company: Brightlink Development
+        location: Santa Barbara, CA
+        started: 2007
+        ended: 2013
+        description:  Ruby on Rails application development
+  - name: Education
+    article_template: education_article.html
+    articles:
+      - degree: BS, Electrical Engineering and Computer Science
+        school: University of California, Berkeley
+        graduation_year: 1983
+        additional:  UCB Mens Lacrosse

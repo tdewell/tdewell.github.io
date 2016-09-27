@@ -1,0 +1,72 @@
+---
+layout: layout
+---
+
+<section class="thirteen columns">
+    <h1>Home</h1>
+    <article>
+        <header>
+            <h1>About</h1>
+        </header>
+        <p>I'm Todd Dewell. I write articles and post links about tech, marketing, health & fitness,
+          golf and travel at this site.</p>
+    </article>
+    <article>
+        <header>
+            <h1>General</h1>
+        </header>
+        <ul>
+          {% for post in site.categories.general %}
+            {% include post_title.html post=post %}
+          {% endfor %}
+        </ul>
+
+    </article>
+    <article>
+        <header>
+            <h1>Tech</h1>
+        </header>
+        <ul>
+          {% for post in site.categories.tech %}
+            {% include post_title.html post=post %}
+          {% endfor %}
+        </ul>
+
+    </article>
+    <article>
+        <header>
+            <h1>Marketing</h1>
+        </header>
+        <ul>
+          {% for post in site.categories.marketing %}
+            {% include post_title.html post=post %}
+          {% endfor %}
+        </ul>
+    </article>
+    <article>
+        <header>
+            <h1>Health & Fitness</h1>
+        </header>
+        <ul>
+          {% for post in site.categories.health %}
+            {% include post_title.html post=post %}
+          {% endfor %}
+        </ul>
+    </article>
+    <article>
+        <header>
+            <h1>Golf</h1>
+        </header>
+        <ul>
+        {% for post in site.categories.golf %}
+          {% include post_title.html post=post %}
+        {% endfor %}
+        </ul>
+    </article>
+    <article>
+        <header>
+            <h1>Travel</h1>
+        </header>
+        <p>Posts coming soon ...</p>
+    </article>
+</section>

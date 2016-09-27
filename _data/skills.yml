@@ -1,0 +1,47 @@
+sections:
+  - name: IT Skills
+    article_template: skills_article.html
+    articles:
+      - skill_group: Programming Languages
+        skills: Ruby, Javascript, jQuery, PHP, C
+      - skill_group: Application Frameworks
+        skills: Ruby on Rails, Sinatra, Jekyll, Node.js, Express
+      - skill_group: Web Design
+        skills: HTML5, CSS, Twitter Bootstrap
+      - skill_group: Databases
+        skills: PostgreSQL, MySQL
+      - skill_group: Web Servers
+        skills: Apache, NGINX
+      - skill_group: Operating Systems
+        skills: Linux, OS X
+      - skill_group: Cloud Computing
+        skills: AWS, Rackspace, Heroku
+      - skill_group: Version Management
+        skills: Git, SVN
+      - skill_group: APIs
+        skills: |
+          REST, oAuth, Facebook API, Twitter API, Instagram API, Google Maps API, Stripe API,
+          ePrize API, Bazaar Voice API, Cogi API
+      - skill_group: Networking
+        skills: |
+          Ethernet, WLAN, IP, UDP, TCP, ICMP, RIP, OSPF, BGP, ARP, DNS, DHCP, RADIUS, PPP,
+          SDN, OpenFlow, QoS, MPLS
+      - skill_group: Optical Networking
+        skills: SONET/SDH, OTN, DWDM, ROADM, Optical Switching
+      - skill_group: Unified Communications
+        skills: |
+          H.323, H.225.0, H.245, SIP, MGCP, RTP, RTCP, G.711, G.729, G.726, H.261, H.263,
+          H.264, MPEG-4, ISDN, BRI, PRI, SS7, POTS
+  - name: Sales & Marketing
+    article_template: skills_article.html
+    articles:
+      - skill_group: Product Management
+        skills: Competitive Analysis, Roadmap, Requirements Documents
+      - skill_group: MarComm
+        skills: Slide Decks, Solution Briefs, White Papers
+      - skill_group: Sales Engineer
+        skills: Pre-sales Support, Demo & Trial Support, Training
+
+
+
+Programming Languages:  Ruby, Javascript, jQuery, PHP, C

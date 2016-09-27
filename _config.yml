@@ -1,0 +1,75 @@
+highlighter: rouge
+markdown: kramdown
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://tdewell.github.io
+author: Todd Dewell
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Todd Dewell's Website
+name: Todd Dewell
+#email: christurner@me.com
+
+permalink: "/:categories/:title"
+
+
+favicon: favicon.ico
+website: tdewell.com
+website_full: https://tdewell.com
+bar_color: 1339be
+header_color: 1339be
+link_color: 1339be
+
+# add url of repo to enable fork me at git hub banner
+fork_me_url:
+
+# add google analytics number (ie UA-69300817-1) to enable google analytics
+#google_analytics: UA-69300817-1
+
+# Location section
+# will link to Google Maps if a URL for google_maps is provided
+city: Santa Barbara
+state: California
+country: USA
+google_maps:
+
+# Site Navigation section organized by topics
+topics:
+  - name:
+    pages:
+      - name: Skills
+        url: skills
+      - name: Projects
+        url: projects
+
+
+
+# Connect section of sidebar (section ommitted if there are no connect entries)
+# Adds places on the web to connect
+# find fa-icons to use here: http://fontawesome.io/icons/
+connect:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/tdewell
+    fa-icon: fa-linkedin
+  - name: Twitter
+    url: https://twitter.com/tdewell
+    fa-icon: fa-twitter
+  - name: Google+
+    url: https://plus.google.com/u/0/+ToddDewell
+    fa-icon: fa-google-plus
+  - name: GitHub
+    url: https://github.com/tdewell
+    fa-icon: fa-github
+  - name: Instagram
+    url: https://www.instagram.com/tdewell/
+    fa-icon: fa-instagram
+
+
+# needed for travis-ci build
+exclude: [vendor]

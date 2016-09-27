@@ -1,0 +1,8 @@
+{% assign p = include.post %}
+{% if p.link %}
+<li><span>{{ p.date | date_to_string }}</span> &raquo;
+  <a href="{{ p.link }}">{{ p.title }} <span class="link-arrow">&rarr;</span></a></li>
+{% else %}
+<li><span>{{ p.date | date_to_string }}</span> &raquo;
+  <a href="{{ p.url }}">{{ p.title }}</a></li>
+{% endif %}
