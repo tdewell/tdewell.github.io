@@ -30,7 +30,7 @@ link_color: 1339be
 fork_me_url:
 
 # add google analytics number (ie UA-69300817-1) to enable google analytics
-#google_analytics: UA-69300817-1
+google_analytics: UA-26704603-1
 
 # Location section
 # will link to Google Maps if a URL for google_maps is provided
@@ -69,6 +69,10 @@ connect:
   - name: Instagram
     url: https://www.instagram.com/tdewell/
     fa-icon: fa-instagram
+  - name: Flickr
+    url: https://www.flickr.com/photos/tdewell/
+    fa-icon: fa-flickr
+
 
 
 # needed for travis-ci build
